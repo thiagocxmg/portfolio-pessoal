@@ -265,3 +265,179 @@ nav {
     color: var(--cor-texto-claro);
     margin: 0;
 }
+
+/* =========================================
+   PROJETOS: Card de Destaque (Data Science)
+   ========================================= */
+.card-projeto.destaque {
+    display: flex;
+    flex-direction: column; /* Celular primeiro: um embaixo do outro */
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 40px;
+    border: 1px solid #f1f5f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-projeto.destaque:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Container da imagem do projeto em destaque */
+.projeto-visual {
+    width: 100%;
+    background: #0f172a; /* Fundo escuro (mesma cor do botão) para destacar o painel */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 30px; /* Dá um respiro excelente em volta do GIF */
+}
+
+/* O GIF do painel */
+.img-projeto {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Arredonda as pontas do seu GIF */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra pesada para efeito de flutuação */
+    border: 1px solid #334155; /* Uma bordinha sutil para acabamento */
+    transition: transform 0.3s;
+}
+
+/* Opcional: Efeito ao passar o mouse */
+.card-projeto:hover .img-projeto {
+    transform: scale(1.03);
+}
+
+.projeto-info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tag-area {
+    align-self: flex-start;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.projeto-info h3 {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin: 0;
+}
+
+.projeto-info p {
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.problema-resolvido {
+    background: #f1f5f9;
+    padding: 15px;
+    border-left: 4px solid #3b82f6;
+    border-radius: 0 8px 8px 0;
+    margin-top: 5px;
+}
+
+.problema-resolvido strong {
+    color: #1e293b;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.problema-resolvido p {
+    font-size: 0.9rem;
+}
+
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.tech-badge {
+    background: #f1f5f9;
+    color: #334155;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid #e2e8f0;
+}
+
+.btn-projeto {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background: #0f172a; /* Cor executiva escura */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s;
+    align-self: flex-start;
+}
+
+.btn-projeto:hover {
+    background: #334155;
+}
+
+/* =========================================
+   RESPONSIVIDADE (Telas de Computador)
+   ========================================= */
+@media (min-width: 992px) {
+    .card-projeto.destaque {
+        flex-direction: row; /* Coloca imagem e texto lado a lado */
+        align-items: stretch;
+    }
+
+    .projeto-visual {
+        flex: 1.2; /* A imagem ganha um pouquinho mais de espaço na tela */
+        border-bottom: none;
+        border-right: 1px solid #e2e8f0;
+    }
+
+    .projeto-info {
+        flex: 1; /* O texto ocupa o restante */
+        justify-content: center;
+    }
+}
+
+/* =========================================
+   BOTÃO VOLTAR AO TOPO (JavaScript)
+   ========================================= */
+#btn-topo {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px; /* Fonte um pouco menor para ficar elegante */
+    font-weight: 600; /* Texto mais gordinho/legível */
+    border: none;
+    outline: none;
+    background-color: #0f172a; 
+    color: white;
+    cursor: pointer;
+    padding: 12px 24px; /* Mais espaço nas laterais para caber o texto */
+    border-radius: 30px; /* Transforma a bolinha em formato de pílula */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+#btn-topo:hover {
+    background-color: #3b82f6; 
+}

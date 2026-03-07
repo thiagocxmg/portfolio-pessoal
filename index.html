@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago | Desenvolvedor e Tech Product</title>
+    <title>Thiago | Dev e Data Analyst </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <nav class="container">
-            <div class="logo">Thiago<span>.dev</span></div>
+            <div class="logo">Thiago-Ramiro<span>.dev</span></div>
             <ul class="nav-links">
                 <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#certificados">Certificados</a></li>
             </ul>
-            <a href="#contato" class="btn-contato">Falar com Thiago</a>
+            <a href="mailto:thiagocxmg@gmail.com" class="btn-contato">Falar com Thiago</a>
         </nav>
     </header>
 
     <section id="hero" class="container">
         <div class="hero-text">
-            <h1>Olá, eu sou o Thiago 👋</h1>
+            <h1>Olá, eu sou Thiago Ramiro</h1>
             <h2>Desenvolvedor de Software & Analista de Dados</h2>
             <p>Unindo visão comercial, inteligência de dados e código limpo para criar soluções tecnológicas que resolvem problemas reais de negócios. Especialista em transformar informações complexas em decisões estratégicas.</p>
             <div class="hero-botoes">
@@ -40,12 +40,38 @@
             <div class="card-projeto destaque">
                 <div class="projeto-info">
                     <span class="tag">App Web / PWA</span>
-                    <h3>Scanner do Mercado</h3>
-                    <p>Um aplicativo progressivo (PWA) focado em gestão financeira familiar. Permite leitura de códigos de barras via câmera, consumo de API em tempo real (Open Food Facts), controle de orçamento e persistência de dados no histórico.</p>
+                    <h3>App Compra Inteligente</h3>
+                    <p>Um aplicativo progressivo (PWA) focado em auxiliar a família brasileira no momento das compras de mercado. Permite leitura de códigos de barras via câmera, consumo de API em tempo real (Open Food Facts), controle de orçamento e persistência de dados no histórico. Estabelece limite de valor para a compra, lista de conferência de valores no caixa e histórico de compras para controle futuro.</p>
                     <div class="tecnologias">
                         <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>APIs</span>
                     </div>
-                    <a href="#" class="link-projeto">Testar Aplicativo ➜</a>
+                    <a href="https://thiagocxmg.github.io/app-mercado/" target="_blank" class="link-projeto">Testar Aplicativo ➜</a>
+                </div>
+            </div>
+
+            <div class="card-projeto destaque">
+                <div class="projeto-visual">
+                    <img src="dashboard-sc.gif" alt="Dashboard Interativo de Exportações de SC" class="img-projeto">
+                </div>
+                
+                <div class="projeto-info">
+                    <span class="tag-area">Data Science & BI</span>
+                    <h3>Inteligência de Exportações: Agronegócio em Santa Catarina</h3>
+                    <p>Análise completa do impacto comercial e sanitário nas exportações de proteína animal em Santa Catarina (período entre 2019-2024). O projeto abrangeu a extração de dados em bases governamentais (Comex Stat e CIDASC), construção de pipeline ETL em Python e modelagem relacional no Power BI.</p>
+                    
+                    <div class="problema-resolvido">
+                        <strong>💡 Visão de Negócio:</strong>
+                        <p>Correlação direta entre a manutenção do status de Zona Livre de Febre Aftosa sem vacinação e os picos de faturamento em dólar, permitindo a rápida identificação de mercados compradores (Ásia/Oriente Médio).</p>
+                    </div>
+                    
+                    <div class="tecnologias">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">ETL</span>
+                    </div>
+                    
+                    <a href="https://github.com/thiagocxmg/analise-exportacao-sc" target="_blank" class="btn-projeto">Ver Case e Código no GitHub ➜</a>
                 </div>
             </div>
 
@@ -102,7 +128,7 @@
                 
                 <div class="item-cert">
                     <h4>Desenvolvimento de Software (Web)</h4>
-                    <p>SENAC & SCTEC | <em>Trilhas e Bootcamps (38h)</em></p>
+                    <p>SENAI/SC & SCTEC | <em>Trilhas e Bootcamps (38h)</em></p>
                 </div>
 
                 <div class="item-cert">
@@ -119,5 +145,8 @@
         </div>
     </section>
 
+    <button id="btn-topo" title="Voltar ao topo">Voltar ao topo ⬆</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
