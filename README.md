@@ -23,6 +23,7 @@ A aplicação é uma Single Page Application (SPA) responsiva, desenvolvida sob 
 **2. App Compra Inteligente (PWA)**
 - **O Problema:** Falta de controle financeiro em tempo real durante compras de supermercado.
 - **A Solução:** Aplicação web focada em leitura de códigos de barras, consumo de APIs (Open Food Facts) e controle de orçamento limite direto no caixa.
+- **Link:** [Testar Aplicativo](https://thiagocxmg.github.io/app-mercado/)
 - **Tecnologias:** HTML5, CSS3, JavaScript (Integração de APIs RESTful).
 
 **3. Sistema RSVP (Rapid Serial Visual Presentation)**
