@@ -2,18 +2,18 @@
 
 🌐 **Portfólio:** [thiagoramiro.dev]
 
-## 📌 Visão Geral
+## Visão Geral
 Este repositório contém o código-fonte do meu portfólio profissional digital. Desenvolvido integralmente do zero, este espaço foi construído para consolidar a minha trajetória de transição de carreira, unindo a minha base sólida em visão comercial e legal com as minhas competências técnicas em Engenharia de Software e Análise de Dados (Data Science/AI).
 
 O meu foco é atuar como um "Tech Product": utilizar código limpo e inteligência de dados não apenas como ferramentas técnicas, mas como motores para resolver problemas reais e gerar valor claro de negócio.
 
-## 🛠️ Arquitetura e Tecnologias
+## Arquitetura e Tecnologias
 A aplicação é uma Single Page Application (SPA) responsiva, desenvolvida sob as melhores práticas de front-end:
 - **HTML5:** Estruturação semântica orientada a SEO e acessibilidade.
 - **CSS3:** Estilização com Flexbox e CSS Grid, adotando a metodologia *Mobile First* para garantir a adaptação fluida em qualquer dispositivo.
 - **JavaScript:** Manipulação do DOM para interatividade dinâmica da interface.
 
-## 🚀 Cases e Projetos em Destaque
+## Cases e Projetos em Destaque
 
 **1. Inteligência de Exportações: Agronegócio em Santa Catarina**
 - **O Problema:** Necessidade de correlacionar o status sanitário (Zona Livre de Febre Aftosa) com os picos de faturamento nas exportações de proteína animal (2019-2024).
@@ -34,27 +34,27 @@ A aplicação é uma Single Page Application (SPA) responsiva, desenvolvida sob 
 **4. Curadoria e Branding (Vacamisa & Joinville Antes e Agora)**
 - Projetos focados em design, criação de identidade visual com apelo comercial e resgate histórico utilizando ferramentas digitais e de geolocalização.
 
-## 📚 Stack de Formação Contínua
+## Stack de Formação Contínua
 Acredito no aprendizado contínuo e na aplicação prática do conhecimento. Minha base técnica é validada por instituições de peso:
 
-**💻 Engenharia de Software:**
+**Engenharia de Software:**
 - Análise e Desenvolvimento de Sistemas (Anhanguera Educacional)
 - NLW Operator - Fullstack (Rocketseat)
 - Programação Front-End e Back-End (SENAI/SC)
 - Desenvolvimento de Software (SCTEC)
 
-**📊 Dados & Inteligência Artificial:**
+**Dados & Inteligência Artificial:**
 - Data Science / Dados & IA (SENAI/SC e SCTEC)
 - NLW Operator - Python (Rocketseat)
 - Jornada Python (Hashtag Treinamentos)
 - Imersão Power BI + IA (Xperiun)
 
-**⚖️ Legal & Business:**
+**Legal & Business:**
 - Direito Contratual Americano I (Yale University)
 - Redação de Contratos (Université de Genève)
 
-## 📬 Contato
+## Contato
 Estou aberto a oportunidades, conexões e desafios que exijam uma mentalidade analítica e orientada a resultados. 
 
 - **E-mail:** thiagocxmg@gmail.com
-- **LinkedIn:** [Insira o link do seu LinkedIn aqui]
+- **LinkedIn:** https://www.linkedin.com/in/thiago-ramiro/
