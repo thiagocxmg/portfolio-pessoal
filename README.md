@@ -1,44 +1,48 @@
-DOCUMENTAÇÃO DO PROJETO: PORTFÓLIO PROFISSIONAL
-Autor: Thiago Ramiro dos Santos
-Objetivo: Atividade Prática Extra - SENAI LAB365 (Introdução à Programação Front-End e Back-End)
+# DOCUMENTAÇÃO DO PROJETO: PORTEFÓLIO PROFISSIONAL
+**Autor:** Thiago Ramiro
 
-1. VISÃO DO PROJETO
-O projeto consiste no desenvolvimento de uma página no formato de Landing Page, projetada para atuar como meu portfólio profissional digital. O objetivo principal é consolidar de forma clara e acessível a minha trajetória de transição de carreira, unindo minha base em visão comercial e negócios com minhas novas habilidades em Desenvolvimento de Software e Análise de Dados.
+## 1. VISÃO GERAL DO PROJETO
+Este projeto consiste no desenvolvimento de uma Single Page Application (SPA) no formato de Landing Page, concebida para atuar como o meu portefólio profissional digital. O objetivo principal é consolidar, de forma estruturada e acessível, a minha trajetória de transição de carreira, unindo a minha base em visão comercial e negócios com as minhas novas competências em Desenvolvimento de Software e Análise de Dados.
 
-2. TECNOLOGIAS UTILIZADAS
-O projeto foi construído respeitando as boas práticas de desenvolvimento front-end, buscando responsividade e usabilidade. Foram utilizadas as seguintes tecnologias:
-- HTML5: Estruturação semântica do conteúdo (uso de tags como <header>, <nav>, <section>, fazendo a divisão lógica da página).
-- CSS3: Estilização em um arquivo externo (style.css), com aplicação intensiva de Flexbox e CSS Grid para alinhamento de cards e seções, além de Media Queries para garantir a responsibilidade em dispositivos móveis (Mobile First).
-- JavaScript: Adição de interatividade à página (script.js), especificamente através da implementação de um botão dinâmico de "Voltar ao Topo" acionado por eventos de rolagem (scroll listener).
+## 2. ARQUITETURA E TECNOLOGIAS UTILIZADAS
+O projeto foi integralmente construído respeitando as boas práticas de desenvolvimento front-end, garantindo responsividade e usabilidade. Foram utilizadas as seguintes tecnologias:
+- **HTML5:** Estruturação semântica do conteúdo (uso de tags como `<header>`, `<nav>`, `<section>`, fazendo a divisão lógica da página).
+- **CSS3:** Estilização num ficheiro externo (`style.css`), com aplicação intensiva de Flexbox e CSS Grid para alinhamento de cards e secções, além de Media Queries para garantir a perfeita adaptação em dispositivos móveis (Mobile First).
+- **JavaScript:** Adição de interatividade à página (`script.js`), especificamente através da implementação de um botão dinâmico de "Voltar ao Topo" acionado por eventos de rolagem (scroll listener).
 
-3. ESTRUTURA DA PÁGINA (SEÇÕES)
-A página cumpre os requisitos do desafio, sendo dividida em três seções principais:
-- Seção Sobre Mim: Apresentação pessoal, destacando meu foco em alinhar tecnologia com visão comercial e resolução de problemas reais de negócio.
-- Seção Projetos: Exposição de projetos práticos executados (descritos abaixo).
-- Seção Formação e Certificações: Mapeamento da minha jornada de estudos e aprimoramento contínuo em tecnologia, negócios e dados.
+## 3. ESTRUTURA DA PÁGINA (SECÇÕES)
+A página está dividida de forma fluida para facilitar a navegação do utilizador:
+- **Hero (Sobre Mim):** Apresentação pessoal, destacando a mentalidade de alinhar tecnologia com visão comercial e resolução de problemas reais de negócio.
+- **Projetos:** Exposição de aplicações e análises práticas executadas.
+- **Formação e Certificações:** Mapeamento em grelha (grid) da jornada de estudos, estrategicamente categorizado em dois grandes pilares de atuação.
 
-4. RELAÇÃO DE PROJETOS APRESENTADOS
-Abaixo estão os detalhes dos projetos incorporados na seção principal do portfólio:
+## 4. RELAÇÃO DE PROJETOS APRESENTADOS
+Abaixo estão os detalhes dos projetos incorporados na secção principal do portefólio:
 
-A) Inteligência de Exportações: Agronegócio em Santa Catarina
-- Descrição: Análise completa do impacto comercial e sanitário nas exportações de proteína animal em SC (2019-2024). O projeto prova, com dados, a correlação entre a manutenção da Zona Livre de Febre Aftosa sem vacinação e os picos de faturamento.
-- Link: https://github.com/thiagocxmg/analise-exportacao-sc
-- Tecnologias: Python (Pandas para ETL e limpeza de sujeira de dados governamentais do Comex Stat e CIDASC), Power BI (Modelagem Relacional Star Schema) e DAX.
+**A) Inteligência de Exportações: Agronegócio em Santa Catarina**
+- **Descrição:** Análise completa do impacto comercial e sanitário nas exportações de proteína animal (2019-2024). O projeto extrai dados de bases governamentais e prova a correlação entre a manutenção da Zona Livre de Febre Aftosa sem vacinação e os picos de faturação.
+- **Tecnologias:** Python (Pandas para ETL do Comex Stat e CIDASC), Power BI (Modelagem Relacional Star Schema) e DAX.
 
-B) App Compra Inteligente (Scanner do Mercado)
-- Descrição: Aplicativo focado em auxiliar o controle financeiro em compras de supermercado. O sistema lê códigos de barras, consome APIs em tempo real (Open Food Facts) e permite o controle de orçamento limite no caixa.
-- Link: https://thiagocxmg.github.io/app-mercado/
-- Tecnologias: HTML5, CSS3, JavaScript (integração de APIs).
+**B) App Compra Inteligente (Scanner do Mercado)**
+- **Descrição:** Aplicação focada no controlo financeiro em compras de supermercado. O sistema lê códigos de barras, consome APIs em tempo real (Open Food Facts) e permite o controlo de orçamento limite na caixa.
+- **Link:** https://thiagocxmg.github.io/app-mercado/
+- **Tecnologias:** HTML5, CSS3, JavaScript.
 
-C) Vacamisa
-- Descrição: Criação de identidade visual e conceito de marca comercial para um e-commerce de camisetas.
-- Link: Projeto visual interno.
-- Tecnologias: Ferramentas de Design e Branding.
+**C) Vacamisa e Joinville Antes e Agora**
+- Projetos focados em design, criação de identidade visual, e curadoria histórica de imagens utilizando ferramentas digitais e de geolocalização.
 
-D) Joinville Antes e Agora
-- Descrição: Projeto de curadoria histórica utilizando o Google Street View para documentar e comparar a evolução do ambiente urbano.
-- Link: Instagram (Joinville Antes e Agora).
-- Tecnologias: Curadoria de imagens digitais e Mídia.
+## 5. MAPEAMENTO DE FORMAÇÃO E CERTIFICAÇÕES
+O portefólio documenta o aprimoramento técnico contínuo através de certificações oficiais com rastreabilidade, divididas em:
 
-5. CONCLUSÃO
-Este portfólio é um projeto vivo. Ele demonstra não apenas minha capacidade de escrever um código produtivo e organizado, mas a minha mentalidade de "Tech Product": utilizar a tecnologia e os dados como ferramentas para construir soluções e gerar valor de negócio claro.
+**💻 Engenharia de Software & Legal/Business:**
+- Análise e Desenvolvimento de Sistemas (Anhanguera Educacional)
+- Introdução à Programação Front-End e Back-End (SENAI/SC - LAB 365)
+- NLW Operator - Fullstack (Rocketseat)
+- Trilha Rápida: Desenvolvimento de Software (SCTEC)
+- Direito Contratual Americano I (Yale University)
+- Rédaction de Contrats (Université de Genève)
+
+**📊 Dados & Inteligência Artificial:**
+- Introdução ao Data Science (SENAI/SC - LAB 365)
+- NLW Operator - Python (Rocketseat)
+- Trilhas Rápidas: Dados & IA (SCTEC
