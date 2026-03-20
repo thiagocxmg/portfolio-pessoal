@@ -14,7 +14,7 @@ window.addEventListener("scroll", () => {
 
 // clica no botão
 btnTopo.addEventListener("click", () => {
-    // Faz a tela rolar de volta para o topo de forma suave (smooth)
+    
     window.scrollTo({
         top: 0,
         behavior: "smooth"
