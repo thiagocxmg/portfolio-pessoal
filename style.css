@@ -425,3 +425,11 @@ nav {
 #btn-topo:hover {
     background-color: #3b82f6; 
 }
+
+.hero-botoes a i {
+    margin-right: 8px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

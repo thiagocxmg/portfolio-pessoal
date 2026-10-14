@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago | Dev e Data Analyst </title>
+    <title>Thiago | Dev e Data Analyst</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
@@ -12,7 +14,7 @@
         <nav class="container">
             <div class="logo">Thiago-Ramiro<span>.dev</span></div>
             <ul class="nav-links">
-                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#hero">Sobre Mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#certificados">Certificados</a></li>
             </ul>
@@ -23,11 +25,19 @@
     <section id="hero" class="container">
         <div class="hero-text">
             <h1>Olá, eu sou Thiago Ramiro</h1>
-            <h2>Desenvolvedor de Software & Analista de Dados</h2>
-            <p>Unindo visão comercial, inteligência de dados e código limpo para criar soluções tecnológicas que resolvem problemas reais de negócios. Especialista em transformar informações complexas em decisões estratégicas.</p>
+            <h2>Analista de Dados & Desenvolvedor</h2>
+            <p>Unindo visão comercial, inteligência de dados e código limpo para criar soluções tecnológicas que resolvem problemas reais de negócios. Focado em transformar informações complexas em decisões estratégicas.</p>
+            
             <div class="hero-botoes">
-                <a href="#projetos" class="btn-primario">Ver meus projetos</a>
-                <a href="https://github.com/thiagocxmg" target="_blank" class="btn-secundario">Acessar GitHub</a>
+                <a href="https://www.linkedin.com/in/thiago-ramiro/" target="_blank" class="btn-primario">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/thiagocxmg" target="_blank" class="btn-secundario">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#projetos" class="btn-secundario" style="background-color: transparent; border: 1px solid #cbd5e1; color: #475569;">
+                    Ver projetos ⬇
+                </a>
             </div>
         </div>
     </section>
@@ -43,7 +53,10 @@
                     <h3>App Compra Inteligente</h3>
                     <p>Um aplicativo progressivo (PWA) focado em auxiliar a família brasileira no momento das compras de mercado. Permite leitura de códigos de barras via câmera, consumo de API em tempo real (Open Food Facts), controle de orçamento e persistência de dados no histórico. Estabelece limite de valor para a compra, lista de conferência de valores no caixa e histórico de compras para controle futuro.</p>
                     <div class="tecnologias">
-                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>APIs</span>
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">APIs</span>
                     </div>
                     <a href="https://thiagocxmg.github.io/app-mercado/" target="_blank" class="link-projeto">Testar Aplicativo ➜</a>
                 </div>
@@ -92,26 +105,10 @@
                 </div>
             </div>
                       
-            <div class="card-projeto">
-                <div class="projeto-info">
-                    <span class="tag">Design & Branding</span>
-                    <h3>Vacamisa</h3>
-                    <p>Criação de identidade visual, logo e conceito de marca para um e-commerce de camisetas, unindo estética e apelo comercial.</p>
-                </div>
-            </div>
-
-            <div class="card-projeto">
-                <div class="projeto-info">
-                    <span class="tag">Mídia & Curadoria</span>
-                    <h3>Joinville Antes e Agora</h3>
-                    <p>Projeto de resgate histórico e curadoria de imagens utilizando o Google Street View para comparar a evolução urbana da cidade.</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
-<section id="certificados" class="container secao" style="background-color: #f1f5f9; border-radius: 12px; padding: 60px 40px; margin-bottom: 60px;">
+    <section id="certificados" class="container secao" style="background-color: #f1f5f9; border-radius: 12px; padding: 60px 40px; margin-bottom: 60px;">
         <h2 class="titulo-secao">Formação & Certificações</h2>
         
         <div class="grid-certificados">
@@ -146,20 +143,39 @@
                 
                 <div class="item-cert">
                     <h4>American Contract Law I & II</h4>
-                    <p>Yale University (Coursera) | <em>Concluído</em></p>
+                    <p>Yale University (Coursera) | <em>Concluído</em><br>
                     <a href="https://www.coursera.org/account/accomplishments/verify/HABEWJAVY5KB" target="_blank" style="font-size: 0.78em; color: #3b82f6; text-decoration: none;">Verificar Autenticidade (Cód: HABEWJAVY5KB)</a></p>
                 </div>
 
                 <div class="item-cert">
                     <h4>Rédaction de Contrats (Redação de Contratos)</h4>
-                    <p>Université de Genève (Coursera) | <em>Concluído</em></p>
+                    <p>Université de Genève (Coursera) | <em>Concluído</em><br>
                     <a href="https://www.coursera.org/account/accomplishments/verify/U6A2R5U8CQ72" target="_blank" style="font-size: 0.78em; color: #3b82f6; text-decoration: none;">Verificar Autenticidade (Cód: U6A2R5U8CQ72)</a></p>
                 </div>
             </div>
 
             <div class="coluna-cert">
                 <h3 class="titulo-coluna-cert">📊 Ciência de Dados & Inteligência Artificial</h3>
-                
+               
+                <div class="item-cert" style="border-left: 3px solid #4285f4; padding-left: 12px; margin-bottom: 24px;">
+                    <h4>Google Data Analytics Professional Certificate</h4>
+                    <p>Google / Coursera | <em>Profissional (Em andamento - 7/9 módulos concluídos)</em><br>
+                    <a href="https://www.coursera.org/specializations/google-data-analytics" target="_blank" style="font-size: 0.85em; color: #3b82f6; text-decoration: none;">Ver Programa no Coursera ➜</a></p>
+                    
+                    <details style="margin-top: 8px; font-size: 0.82em; color: #475569;">
+                        <summary style="cursor: pointer; color: #2563eb; font-weight: 500;">Ver certificados dos módulos concluídos (7)</summary>
+                        <ul style="list-style-type: none; padding-left: 0; margin-top: 8px; line-height: 1.6;">
+                            <li>• <strong>Foundations: Data, Data, Everywhere</strong> | <a href="https://coursera.org/verify/W2YOICJF960G" target="_blank" style="color: #3b82f6;">Verificar (W2YOICJF960G)</a></li>
+                            <li>• <strong>Ask Questions to Make Data-Driven Decisions</strong> | <a href="https://coursera.org/verify/0U26XCB6GCHZ" target="_blank" style="color: #3b82f6;">Verificar (0U26XCB6GCHZ)</a></li>
+                            <li>• <strong>Prepare Data for Exploration</strong> | <a href="https://coursera.org/verify/OB5OMCU8FGWF" target="_blank" style="color: #3b82f6;">Verificar (OB5OMCU8FGWF)</a></li>
+                            <li>• <strong>Process Data from Dirty to Clean</strong> | <a href="https://coursera.org/verify/GAUGTZ7IKOWS" target="_blank" style="color: #3b82f6;">Verificar (GAUGTZ7IKOWS)</a></li>
+                            <li>• <strong>Analyze Data to Answer Questions</strong> | <a href="https://coursera.org/verify/ZVRH6RWTJOXF" target="_blank" style="color: #3b82f6;">Verificar (ZVRH6RWTJOXF)</a></li>
+                            <li>• <strong>Share Data Through the Art of Visualization</strong> | <a href="https://coursera.org/verify/1KBUZ8YJKUWC" target="_blank" style="color: #3b82f6;">Verificar (1KBUZ8YJKUWC)</a></li>
+                            <li>• <strong>Introduction to Data Analysis Using Python</strong> | <a href="https://coursera.org/verify/5M07HO3TWKPV" target="_blank" style="color: #3b82f6;">Verificar (5M07HO3TWKPV)</a></li>
+                        </ul>
+                    </details>
+                </div>
+
                 <div class="item-cert">
                     <h4>Introdução ao Data Science</h4>
                     <p>SENAI/SC - LAB 365 | <em>Concluído (20h)</em><br>

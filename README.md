@@ -32,8 +32,9 @@ A aplicação é uma Single Page Application (SPA) responsiva, desenvolvida sob 
 - **Link:** [Acessar a Aplicação](https://thiagocxmg.github.io/rsvp/)
 - **Tecnologias:** Python (FastAPI no back-end), JavaScript, HTML5 e CSS3.
 
-**4. Curadoria e Branding (Vacamisa & Joinville Antes e Agora)**
-- Projetos focados em design, criação de identidade visual com apelo comercial e resgate histórico utilizando ferramentas digitais e de geolocalização.
+### 📊 Ciência de Dados & Inteligência Artificial
+- **Google Data Analytics Professional Certificate** — Google / Coursera *(Em andamento - 7 de 8 módulos concluídos)*
+  - *Módulos Verificados:* Foundations: Data, Data, Everywhere[cite: 2] | Ask Questions to Make Data-Driven Decisions[cite: 3] | Prepare Data for Exploration[cite: 4] | Process Data from Dirty to Clean[cite: 5] | Analyze Data to Answer Questions[cite: 6] | Share Data Through the Art of Visualization[cite: 7] | Introduction to Data Analysis Using Python[cite: 8].
 
 ## Stack de Formação Contínua
 Acredito no aprendizado contínuo e na aplicação prática do conhecimento. Minha base técnica é validada por instituições de peso:
